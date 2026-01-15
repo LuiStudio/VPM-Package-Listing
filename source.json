@@ -13,6 +13,8 @@
         "text":"Booth"
     },
     "bannerUrl":"banner.png",
-    "githubRepos":[],
+    "githubRepos":[
+        "LuiScreaMed/VRC-Blend-Shape-Clamper"
+    ],
     "packages":[]
 }
