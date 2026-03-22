@@ -1,3 +1,3 @@
 # LuiStudio's VPM Package Listing
 
-[Listing Page](https://luiscreamed.github.io/VPM-Package-Listing/)
+[Listing Page](https://luistudio.github.io/VPM-Package-Listing/)
