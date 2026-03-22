@@ -1,13 +1,13 @@
 {
     "name":"LuiStudio's VPM Packages",
     "id":"dev.luistudio.vpm-listing",
-    "url":"https://luiscreamed.github.io/VPM-Package-Listing/index.json",
+    "url":"https://luistudio.github.io/VPM-Package-Listing/index.json",
     "author":{
         "email":"",
         "name":"LuiStudio",
-        "url":"https://github.com/LuiScreaMed"
+        "url":"https://github.com/LuiStudio"
     },
-    "description":"For use with the VRChat Creator Companion",
+    "description":"For use with the VRChat Creator Companion / Alcom",
     "infoLink":{
         "url":"https://luistudio.booth.pm/",
         "text":"Booth"
