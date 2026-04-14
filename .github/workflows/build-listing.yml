@@ -20,11 +20,6 @@ concurrency:
 env:
   listPublishDirectory: Website
   pathToCi: ci
-  personalRepoOwner: "LuiScreaMed"
-  personalRepoName: "VPM-Package-Listing"
-  personalRepoBranch: "main"
-  personalWorkflowName: "build-listing.yml"
-  accessToken: ${{ secrets.VPM_TOKEN_PACKAGE_LISTING_UPDATE_PERSONAL }}
 
 jobs:
   
@@ -67,18 +62,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
-  dispatch:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Trigger Repo Update
-      uses: actions/github-script@v6
-      with:
-        github-token: ${{ env.accessToken }}
-        script: |
-          await github.rest.actions.createWorkflowDispatch({
-            owner: '${{ env.personalRepoOwner }}',
-            repo: '${{ env.personalRepoName }}',
-            workflow_id: '${{ env.personalWorkflowName }}',
-            ref: '${{ env.personalRepoBranch }}',
-          })
