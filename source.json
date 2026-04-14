@@ -14,7 +14,8 @@
     },
     "bannerUrl":"banner.jpg",
     "githubRepos":[
-        "LuiStudio/VRC-Blend-Shape-Clamper"
+        "LuiStudio/VRC-Blend-Shape-Clamper",
+        "LuiStudio/VRC-Force-Write-Defaults"
     ],
     "packages":[]
 }
